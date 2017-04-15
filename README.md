@@ -1,2 +1,2 @@
 # Data-Structures
-Implementation of various data structures in ES6
+Implementation of various data structures using ES6
