@@ -1,7 +1,7 @@
 // Stack -- Using string
-// Last In First Out (LIFO)
-// You can push onto the stack and pop off the stack in LIFO order
-
+// LIFO - Last In First Out
+// Push - add item to the end of the Stack
+// Pop - remove the last item from the Stack
 var Stack = function(){
   this.storage = "";
 };
