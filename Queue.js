@@ -29,7 +29,7 @@ class Queue {
     peek() {
         return this._waitingLine[this._head];
     };
-    
+
     count() {
         return this._tail - this._head;
     };
@@ -39,7 +39,7 @@ class Queue {
             if (this._waitingLine[i] === value) return true;
         }
         return false
-    }
+    };
 
     until(value) {
         for (let i = this._head; i < this._tail; i++) {
@@ -47,5 +47,4 @@ class Queue {
         }
         return null;
     };
-
 };
