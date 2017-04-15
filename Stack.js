@@ -15,7 +15,7 @@ class Stack {
             return this._count;
         }
         return "Error: Max Capacity reached.";
-    }
+    };
 
     pop() {
         let value = this._storage[--this._count];
